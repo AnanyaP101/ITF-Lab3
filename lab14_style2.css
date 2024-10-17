@@ -79,6 +79,12 @@ table {
     color: rgb(0, 66, 197);
     font-size: 32px;
 }
+.box{
+    display:flex;
+    justify-self: center;
+    column-gap: 10px ;
+
+}
 
 .btn {
     background-color: #936943;
@@ -89,13 +95,6 @@ table {
     cursor: pointer;
     transition: 0.3s;
     margin: 5px;
-}
-
-.box{
-    display:flex;
-    justify-self: center;
-    column-gap: 10px ;
-
 }
 .btn:hover {
     background-color: #6b4f2c;
